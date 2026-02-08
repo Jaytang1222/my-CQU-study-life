@@ -1,0 +1,6 @@
+account01:0000000000000000005
+name01:Sage
+idcard01:005
+password01:000005
+balance01:50000
+isfreeze01:1

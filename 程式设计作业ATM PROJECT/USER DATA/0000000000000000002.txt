@@ -1,0 +1,6 @@
+account01:0000000000000000002
+name01:Killjoy
+idcard01:002
+password01:000002
+balance01:20000
+isfreeze01:1

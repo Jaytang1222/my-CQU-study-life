@@ -1,0 +1,6 @@
+account01:0000000000000000004
+name01:Iso
+idcard01:004
+password01:000004
+balance01:40000
+isfreeze01:0

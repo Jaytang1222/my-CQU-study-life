@@ -1,0 +1,6 @@
+account01:0000000000000000003
+name01:Clove
+idcard01:003
+password01:000003
+balance01:30000
+isfreeze01:1
