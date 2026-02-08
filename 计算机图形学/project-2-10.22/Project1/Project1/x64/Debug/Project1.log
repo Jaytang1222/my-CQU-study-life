@@ -1,0 +1,65 @@
+﻿  main.cpp
+C:\Users\jayta\Desktop\study\qhx\project-2-10.22\Project1\main.cpp(41,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\jayta\Desktop\study\qhx\project-2-10.22\Project1\main.cpp(84,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\jayta\Desktop\study\qhx\project-2-10.22\Project1\main.cpp(158,22): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+C:\Users\jayta\Desktop\study\qhx\project-2-10.22\Project1\main.cpp(158,40): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+C:\Users\jayta\Desktop\study\qhx\project-2-10.22\Project1\main.cpp(174,17): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+C:\Users\jayta\Desktop\study\qhx\project-2-10.22\Project1\main.cpp(205,22): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,16): warning C4244: “初始化”: 从“_Ty”转换到“_Ty1”，可能丢失数据
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,16): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,16): warning C4244:             _Ty=double
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,16): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,16): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,16): warning C4244:             _Ty1=float
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,16): warning C4244:         ]
+  (编译源文件“main.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,16):
+      模板实例化上下文(最早的实例化上下文)为
+          C:\Users\jayta\Desktop\study\qhx\project-2-10.22\Project1\main.cpp(176,40):
+          查看对正在编译的函数 模板 实例化“std::pair<float,float>::pair<double,float,0>(_Other1 &&,_Other2 &&) noexcept”的引用
+          with
+          [
+              _Other1=double,
+              _Other2=float
+          ]
+              C:\Users\jayta\Desktop\study\qhx\project-2-10.22\Project1\main.cpp(176,38):
+              请参阅 "cursor_position_callback" 中对 "std::pair<float,float>::pair" 的第一个引用
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,16): warning C4244: “初始化”: 从“_Ty”转换到“_Ty1”，可能丢失数据
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,16): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,16): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,16): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,16): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,16): warning C4244:             _Ty1=float
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,16): warning C4244:         ]
+  (编译源文件“main.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,16):
+      模板实例化上下文(最早的实例化上下文)为
+          C:\Users\jayta\Desktop\study\qhx\project-2-10.22\Project1\main.cpp(216,31):
+          查看对正在编译的函数 模板 实例化“std::pair<float,float>::pair<int,int,0>(_Other1 &&,_Other2 &&) noexcept”的引用
+          with
+          [
+              _Other1=int,
+              _Other2=int
+          ]
+              C:\Users\jayta\Desktop\study\qhx\project-2-10.22\Project1\main.cpp(216,27):
+              请参阅 "key_callback" 中对 "std::pair<float,float>::pair" 的第一个引用
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,54): warning C4244: “初始化”: 从“_Ty”转换到“_Ty2”，可能丢失数据
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,54): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,54): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,54): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,54): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,54): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,54): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,54): warning C4244:             _Ty2=float
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,54): warning C4244:         ]
+  (编译源文件“main.cpp”)
+  
+  Project1.vcxproj -> C:\Users\jayta\Desktop\study\qhx\project-2-10.22\Project1\x64\Debug\Project1.exe
+  'pwsh.exe' 不是内部或外部命令，也不是可运行的程序
+  或批处理文件。

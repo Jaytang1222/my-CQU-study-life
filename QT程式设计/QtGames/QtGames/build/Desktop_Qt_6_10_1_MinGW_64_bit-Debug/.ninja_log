@@ -1,0 +1,19 @@
+# ninja log v6
+17	1886	7901589252114440	QtGames_autogen/timestamp	3a05a3de9218fad2
+17	1886	7901589252114440	QtGames_autogen/mocs_compilation.cpp	3a05a3de9218fad2
+17	1886	7901589252114440	C:/Users/jayta/Desktop/game/QtGames/QtGames/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/QtGames_autogen/timestamp	3a05a3de9218fad2
+17	1886	7901589252114440	C:/Users/jayta/Desktop/game/QtGames/QtGames/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/QtGames_autogen/mocs_compilation.cpp	3a05a3de9218fad2
+2269	6712	7901589258480294	CMakeFiles/QtGames.dir/mapgenerator.cpp.obj	ecb7d96847fee18e
+2078	7771	7901589256577896	CMakeFiles/QtGames.dir/item.cpp.obj	b91682a3fccf53bb
+1926	7803	7901589255050290	CMakeFiles/QtGames.dir/main.cpp.obj	cfad8c63bcfd1828
+2137	7854	7901589257168214	CMakeFiles/QtGames.dir/statuspanel.cpp.obj	85ab90acb36225f2
+2015	8128	7901589255946083	CMakeFiles/QtGames.dir/block.cpp.obj	e0a79e6f0b650d59
+2108	8194	7901589256873393	CMakeFiles/QtGames.dir/portal.cpp.obj	5cdb2addf00f551e
+2200	8462	7901589257825417	CMakeFiles/QtGames.dir/gamescene.cpp.obj	1e86b446d32587e3
+1986	8679	7901589255648867	CMakeFiles/QtGames.dir/player.cpp.obj	745e891be9e2f874
+1955	8841	7901589255351716	CMakeFiles/QtGames.dir/mainwindow.cpp.obj	7eaacfea051f7d6a
+2047	8921	7901589256271166	CMakeFiles/QtGames.dir/bomb.cpp.obj	6f086ff3c0c237fb
+1901	9491	7901589254808501	CMakeFiles/QtGames.dir/QtGames_autogen/mocs_compilation.cpp.obj	dbe5af4d85b61941
+2234	9973	7901589258136723	CMakeFiles/QtGames.dir/gamebotmanager.cpp.obj	dd72b1920752ac4e
+2167	13278	7901589257459034	CMakeFiles/QtGames.dir/gameengine.cpp.obj	f475310e9e88a77b
+13279	18576	7901589368580343	QtGames.exe	90e08fd3204de2bf

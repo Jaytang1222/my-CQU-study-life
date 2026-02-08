@@ -1,0 +1,10 @@
+^C:\USERS\JAYTA\DESKTOP\QHX\HOMEWORK-1-9.14\BUILD\CMAKEFILES\C76AAD1ABA1299BA9919EDEF2C9FAECD\GENERATE.STAMP.RULE
+setlocal
+C:\SRTP\CMake\bin\cmake.exe -SC:/Users/jayta/Desktop/qhx/homework-1-9.14 -BC:/Users/jayta/Desktop/qhx/homework-1-9.14/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/jayta/Desktop/qhx/homework-1-9.14/build/MyProject.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

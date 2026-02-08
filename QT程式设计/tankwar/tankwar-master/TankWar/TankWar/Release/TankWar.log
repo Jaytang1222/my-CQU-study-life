@@ -1,0 +1,18 @@
+﻿  stdafx.cpp
+  Bullet.cpp
+  Control.cpp
+  Data.cpp
+  Draw.cpp
+  Tank.cpp
+  TankWar.cpp
+C:\Users\jayta\Desktop\tankwar\tankwar-master\TankWar\TankWar\Tank.cpp(204,7): warning C4834: 放弃具有 [[nodiscard]] 属性的函数的返回值
+  (编译源文件“/Tank.cpp”)
+  
+  Union.cpp
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 204 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  TankWar.vcxproj -> C:\Users\jayta\Desktop\tankwar\tankwar-master\TankWar\Release\TankWar.exe
+  'pwsh.exe' 不是内部或外部命令，也不是可运行的程序
+  或批处理文件。

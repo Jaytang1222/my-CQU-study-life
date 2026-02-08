@@ -1,0 +1,112 @@
+#pragma once
+
+#include "Object.hpp"
+
+#include <cstring>
+
+bool rayTriangleIntersect(const Vector3f& v0, const Vector3f& v1, const Vector3f& v2, const Vector3f& orig,
+                          const Vector3f& dir, float& tnear, float& u, float& v)
+{
+    // TODO: Implement this function that tests whether the triangle
+    // that's specified bt v0, v1 and v2 intersects with the ray (whose
+    // origin is *orig* and direction is *dir*)
+    // Also don't forget to update tnear, u and v.
+    // 1. 定义微小值，避免浮点精度误差（如 det 接近0时判定为平行）
+    const float eps = 1e-8;
+
+    // 2. 计算三角形的边向量 e1、e2，以及光线起点到 v0 的向量 s
+    Vector3f e1 = v1 - v0;
+    Vector3f e2 = v2 - v0;
+    Vector3f s = orig - v0;
+
+    // 3. 计算三个叉乘向量：s1 = dir × e2，s2 = s × e1
+    Vector3f s1 = crossProduct(dir, e2);
+    Vector3f s2 = crossProduct(s, e1);
+
+    // 4. 计算行列式 det = s1 · e1，若 det 接近0，光线与三角形平行或共面，无交点
+    float det = dotProduct(s1, e1);
+    if (fabs(det) < eps)
+        return false;
+
+    // 5. 计算重心坐标 u 和 v，以及交点距离 t
+    float inv_det = 1.0f / det; // 行列式的倒数（减少除法次数）
+    u = dotProduct(s1, s) * inv_det;
+    v = dotProduct(s2, dir) * inv_det;
+    tnear = dotProduct(s2, e2) * inv_det;
+
+    // 6. 判定交点是否有效：u ∈ [0,1]、v ∈ [0,1]、u+v ∈ [0,1]、tnear > 0（在光线前方）
+    if (u >= 0.0f && u <= 1.0f && v >= 0.0f && v <= 1.0f && (u + v) <= 1.0f && tnear > eps)
+        return true;
+    else
+        return false;
+}
+
+class MeshTriangle : public Object
+{
+public:
+    MeshTriangle(const Vector3f* verts, const uint32_t* vertsIndex, const uint32_t& numTris, const Vector2f* st)
+    {
+        uint32_t maxIndex = 0;
+        for (uint32_t i = 0; i < numTris * 3; ++i)
+            if (vertsIndex[i] > maxIndex)
+                maxIndex = vertsIndex[i];
+        maxIndex += 1;
+        vertices = std::unique_ptr<Vector3f[]>(new Vector3f[maxIndex]);
+        memcpy(vertices.get(), verts, sizeof(Vector3f) * maxIndex);
+        vertexIndex = std::unique_ptr<uint32_t[]>(new uint32_t[numTris * 3]);
+        memcpy(vertexIndex.get(), vertsIndex, sizeof(uint32_t) * numTris * 3);
+        numTriangles = numTris;
+        stCoordinates = std::unique_ptr<Vector2f[]>(new Vector2f[maxIndex]);
+        memcpy(stCoordinates.get(), st, sizeof(Vector2f) * maxIndex);
+    }
+
+    bool intersect(const Vector3f& orig, const Vector3f& dir, float& tnear, uint32_t& index,
+                   Vector2f& uv) const override
+    {
+        bool intersect = false;
+        for (uint32_t k = 0; k < numTriangles; ++k)
+        {
+            const Vector3f& v0 = vertices[vertexIndex[k * 3]];
+            const Vector3f& v1 = vertices[vertexIndex[k * 3 + 1]];
+            const Vector3f& v2 = vertices[vertexIndex[k * 3 + 2]];
+            float t, u, v;
+            if (rayTriangleIntersect(v0, v1, v2, orig, dir, t, u, v) && t < tnear)
+            {
+                tnear = t;
+                uv.x = u;
+                uv.y = v;
+                index = k;
+                intersect |= true;
+            }
+        }
+
+        return intersect;
+    }
+
+    void getSurfaceProperties(const Vector3f&, const Vector3f&, const uint32_t& index, const Vector2f& uv, Vector3f& N,
+                              Vector2f& st) const override
+    {
+        const Vector3f& v0 = vertices[vertexIndex[index * 3]];
+        const Vector3f& v1 = vertices[vertexIndex[index * 3 + 1]];
+        const Vector3f& v2 = vertices[vertexIndex[index * 3 + 2]];
+        Vector3f e0 = normalize(v1 - v0);
+        Vector3f e1 = normalize(v2 - v1);
+        N = normalize(crossProduct(e0, e1));
+        const Vector2f& st0 = stCoordinates[vertexIndex[index * 3]];
+        const Vector2f& st1 = stCoordinates[vertexIndex[index * 3 + 1]];
+        const Vector2f& st2 = stCoordinates[vertexIndex[index * 3 + 2]];
+        st = st0 * (1 - uv.x - uv.y) + st1 * uv.x + st2 * uv.y;
+    }
+
+    Vector3f evalDiffuseColor(const Vector2f& st) const override
+    {
+        float scale = 5;
+        float pattern = (fmodf(st.x * scale, 1) > 0.5) ^ (fmodf(st.y * scale, 1) > 0.5);
+        return lerp(Vector3f(0.815, 0.235, 0.031), Vector3f(0.937, 0.937, 0.231), pattern);
+    }
+
+    std::unique_ptr<Vector3f[]> vertices;
+    uint32_t numTriangles;
+    std::unique_ptr<uint32_t[]> vertexIndex;
+    std::unique_ptr<Vector2f[]> stCoordinates;
+};

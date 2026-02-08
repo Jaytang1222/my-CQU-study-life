@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>泡泡堂游戏</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>泡泡堂游戏</h1>
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+        <div class="game-info">
+            <div>人类玩家: <span id="playerName">玩家1</span></div>
+            <div>人类分数: <span id="score1">0</span></div>
+            <div>人类生命: <span id="lives1">3</span></div>
+            <div>AI玩家: 电脑</div>
+            <div>AI分数: <span id="score2">0</span></div>
+            <div>AI生命: <span id="lives2">3</span></div>
+        </div>
+        <div class="controls">
+            <h3>控制说明</h3>
+            <p>方向键: 移动</p>
+            <p>空格键: 放置炸弹</p>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>

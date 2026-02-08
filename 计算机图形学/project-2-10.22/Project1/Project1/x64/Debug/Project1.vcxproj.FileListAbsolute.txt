@@ -1,0 +1,6 @@
+C:\Users\jayta\Desktop\study\qhx\temp\Project1\x64\Debug\glew32d.dll
+C:\Users\jayta\Desktop\study\qhx\temp\Project1\x64\Debug\glfw3.dll
+C:\Users\jayta\Desktop\study\qhx\temp\Project1\Project1\x64\Debug\Project1.vcxproj.Up2Date
+C:\Users\jayta\Desktop\study\qhx\project-2-10.22\Project1\x64\Debug\glew32d.dll
+C:\Users\jayta\Desktop\study\qhx\project-2-10.22\Project1\x64\Debug\glfw3.dll
+C:\Users\jayta\Desktop\study\qhx\project-2-10.22\Project1\Project1\x64\Debug\Project1.vcxproj.Up2Date

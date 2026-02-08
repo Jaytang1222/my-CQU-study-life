@@ -1,0 +1,3 @@
+C:/Users/jayta/Desktop/study/qhx/exp4/build/CMakeFiles/RayTracing.dir
+C:/Users/jayta/Desktop/study/qhx/exp4/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/jayta/Desktop/study/qhx/exp4/build/CMakeFiles/ZERO_CHECK.dir

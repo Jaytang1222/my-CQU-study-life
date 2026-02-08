@@ -1,0 +1,25 @@
+# 指定CMake最低版本要求
+cmake_minimum_required(VERSION 3.10)
+
+# 项目名称和支持的语言（C/CXX分别表示C和C++）
+project(MyProject LANGUAGES C CXX)
+
+# 设置C++标准（根据需要修改，如11、14、17、20等）
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)  # 不使用编译器特定扩展
+
+# 设置编译选项（可选，根据需要添加）
+if(MSVC)
+    # Windows MSVC编译器选项
+    add_compile_options(/W4)  # 开启警告等级4
+else()
+    # GCC或Clang编译器选项
+    add_compile_options(-Wall -Wextra -Wpedantic)  # 开启常见警告
+endif()
+
+# 查找项目中的源文件
+# 方式1：手动列出源文件
+set(SOURCES
+    src/main.cpp
+)

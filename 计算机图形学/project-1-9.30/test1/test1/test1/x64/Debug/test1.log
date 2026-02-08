@@ -1,0 +1,8 @@
+﻿  main.cpp
+C:\Users\jayta\Desktop\study\qhx\project-1-9.30\test1\test1\main.cpp(237,28): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+C:\Users\jayta\Desktop\study\qhx\project-1-9.30\test1\test1\main.cpp(418,47): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\jayta\Desktop\study\qhx\project-1-9.30\test1\test1\main.cpp(422,47): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\jayta\Desktop\study\qhx\project-1-9.30\test1\test1\main.cpp(509,15): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  test1.vcxproj -> C:\Users\jayta\Desktop\study\qhx\project-1-9.30\test1\test1\x64\Debug\test1.exe
+  'pwsh.exe' 不是内部或外部命令，也不是可运行的程序
+  或批处理文件。

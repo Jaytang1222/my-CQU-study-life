@@ -1,0 +1,235 @@
+﻿  Building Custom Rule C:/Users/jayta/Desktop/study/qhx/exp4/CMakeLists.txt
+  main.cpp
+C:\Users\jayta\Desktop\study\qhx\exp4\global.hpp(19,46): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../main.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\global.hpp(21,17): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../main.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\global.hpp(43,13): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+  (编译源文件“../main.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Ray.hpp(16,68): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../main.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Ray.hpp(16,52): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../main.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Ray.hpp(16,36): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../main.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Ray.hpp(22,65): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+  (编译源文件“../main.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Bounds3.hpp(21,41): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../main.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Bounds3.hpp(21,33): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../main.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Bounds3.hpp(21,25): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../main.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Bounds3.hpp(22,41): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../main.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Bounds3.hpp(22,33): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../main.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Bounds3.hpp(22,25): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../main.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Scene.hpp(23,60): warning C4305: “参数”: 从“double”到“float”截断
+  (编译源文件“../main.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Scene.hpp(23,51): warning C4305: “参数”: 从“double”到“float”截断
+  (编译源文件“../main.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Scene.hpp(23,41): warning C4305: “参数”: 从“double”到“float”截断
+  (编译源文件“../main.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Scene.hpp(25,29): warning C4305: “初始化”: 从“double”到“float”截断
+  (编译源文件“../main.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\OBJ_Loader.hpp(944,33): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../main.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Triangle.hpp(181,23): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+  (编译源文件“../main.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Triangle.hpp(184,44): warning C4305: “参数”: 从“double”到“float”截断
+  (编译源文件“../main.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Triangle.hpp(184,37): warning C4305: “参数”: 从“double”到“float”截断
+  (编译源文件“../main.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Triangle.hpp(184,30): warning C4305: “参数”: 从“double”到“float”截断
+  (编译源文件“../main.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Triangle.hpp(183,44): warning C4305: “参数”: 从“double”到“float”截断
+  (编译源文件“../main.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Triangle.hpp(183,37): warning C4305: “参数”: 从“double”到“float”截断
+  (编译源文件“../main.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Triangle.hpp(183,30): warning C4305: “参数”: 从“double”到“float”截断
+  (编译源文件“../main.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Sphere.hpp(81,21): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../main.cpp”)
+  
+  Vector.cpp
+  Scene.cpp
+C:\Users\jayta\Desktop\study\qhx\exp4\global.hpp(19,46): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../Scene.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\global.hpp(21,17): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../Scene.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\global.hpp(43,13): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+  (编译源文件“../Scene.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Ray.hpp(16,68): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../Scene.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Ray.hpp(16,52): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../Scene.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Ray.hpp(16,36): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../Scene.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Ray.hpp(22,65): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+  (编译源文件“../Scene.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Bounds3.hpp(21,41): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../Scene.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Bounds3.hpp(21,33): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../Scene.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Bounds3.hpp(21,25): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../Scene.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Bounds3.hpp(22,41): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../Scene.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Bounds3.hpp(22,33): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../Scene.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Bounds3.hpp(22,25): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../Scene.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Scene.hpp(23,60): warning C4305: “参数”: 从“double”到“float”截断
+  (编译源文件“../Scene.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Scene.hpp(23,51): warning C4305: “参数”: 从“double”到“float”截断
+  (编译源文件“../Scene.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Scene.hpp(23,41): warning C4305: “参数”: 从“double”到“float”截断
+  (编译源文件“../Scene.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Scene.hpp(25,29): warning C4305: “初始化”: 从“double”到“float”截断
+  (编译源文件“../Scene.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Scene.cpp(79,19): warning C4305: “初始化”: 从“double”到“float”截断
+C:\Users\jayta\Desktop\study\qhx\exp4\Scene.cpp(105,23): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+  BVH.cpp
+C:\Users\jayta\Desktop\study\qhx\exp4\global.hpp(19,46): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../BVH.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\global.hpp(21,17): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../BVH.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\global.hpp(43,13): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+  (编译源文件“../BVH.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Ray.hpp(16,68): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../BVH.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Ray.hpp(16,52): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../BVH.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Ray.hpp(16,36): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../BVH.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Ray.hpp(22,65): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+  (编译源文件“../BVH.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Bounds3.hpp(21,41): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../BVH.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Bounds3.hpp(21,33): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../BVH.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Bounds3.hpp(21,25): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../BVH.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Bounds3.hpp(22,41): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../BVH.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Bounds3.hpp(22,33): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../BVH.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Bounds3.hpp(22,25): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../BVH.cpp”)
+  
+  Renderer.cpp
+C:\Users\jayta\Desktop\study\qhx\exp4\global.hpp(19,46): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../Renderer.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\global.hpp(21,17): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../Renderer.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\global.hpp(43,13): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+  (编译源文件“../Renderer.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Ray.hpp(16,68): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../Renderer.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Ray.hpp(16,52): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../Renderer.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Ray.hpp(16,36): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../Renderer.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Ray.hpp(22,65): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+  (编译源文件“../Renderer.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Bounds3.hpp(21,41): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../Renderer.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Bounds3.hpp(21,33): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../Renderer.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Bounds3.hpp(21,25): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../Renderer.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Bounds3.hpp(22,41): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../Renderer.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Bounds3.hpp(22,33): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../Renderer.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Bounds3.hpp(22,25): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../Renderer.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Scene.hpp(23,60): warning C4305: “参数”: 从“double”到“float”截断
+  (编译源文件“../Renderer.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Scene.hpp(23,51): warning C4305: “参数”: 从“double”到“float”截断
+  (编译源文件“../Renderer.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Scene.hpp(23,41): warning C4305: “参数”: 从“double”到“float”截断
+  (编译源文件“../Renderer.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Scene.hpp(25,29): warning C4305: “初始化”: 从“double”到“float”截断
+  (编译源文件“../Renderer.cpp”)
+  
+C:\Users\jayta\Desktop\study\qhx\exp4\Renderer.cpp(12,60): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+C:\Users\jayta\Desktop\study\qhx\exp4\Renderer.cpp(14,23): warning C4305: “初始化”: 从“double”到“float”截断
+C:\Users\jayta\Desktop\study\qhx\exp4\Renderer.cpp(25,41): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+C:\Users\jayta\Desktop\study\qhx\exp4\Renderer.cpp(73,16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  正在生成代码...
+  RayTracing.vcxproj -> C:\Users\jayta\Desktop\study\qhx\exp4\build\Debug\RayTracing.exe
+  'pwsh.exe' 不是内部或外部命令，也不是可运行的程序
+  或批处理文件。

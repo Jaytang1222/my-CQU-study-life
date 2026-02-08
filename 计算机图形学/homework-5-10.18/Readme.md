@@ -1,0 +1,5 @@
+from 20241280汤英琦
+实现了基础项和提高项
+基础项的实现在文件夹build
+提高项的实现在文件夹build2
+在函数draw_antialiased_point中实现了贝塞尔曲线的反走样
