@@ -1,0 +1,110 @@
+\documentclass[12pt,a4paper]{ctexart}
+\usepackage{geometry}
+\usepackage{pdfpages}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\usepackage{titlesec}
+\geometry{left=2cm,right=2cm,top=2.5cm,bottom=2.5cm}
+
+% 页眉页脚设置
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{第 \thepage 页}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% 标题格式
+\titleformat{\section}{\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries}{\thesubsection}{1em}{}
+
+\title{电动汽车充电桩布局与推广模型研究（中文翻译版）}
+\author{基于 2018 年 MCM/ICM D 题论文（Team \#80386）}
+\date{}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 每页：插入原PDF + 中文翻译内容
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------- 第1页 -----------------------%
+\includepdf[pages=1,scale=0.95,pagecommand={}]{341.pdf}
+
+\section*{第1页中文译文}
+随着猎鹰重型火箭的尾焰在大气中散去，特斯拉应当意识到——
+将可靠的量产交付到消费者手中，比把一辆汽车送入太空更加困难。
+本文旨在研究特斯拉如何制定发展规划，以满足客户需求，并让电动汽车进入千家万户。
+针对任务1，我们对美国汽车数量进行回归分析，预测未来15年内所需的充电站数量为1,463,222个，
+并探讨在城市、郊区与农村区域的合理分布……
+
+\vspace{1cm}
+
+%----------------------- 第2页 -----------------------%
+\includepdf[pages=2,scale=0.95,pagecommand={}]{341.pdf}
+
+\section*{第2页中文译文}
+本页展示了论文目录结构和主要章节安排，包括引言、问题重述、模型假设、
+模型参数、模型建立、灵敏度分析、优缺点以及为各国领导人撰写的建议信内容。
+接下来章节将详细介绍模型设计与计算方法。
+
+\vspace{1cm}
+
+%----------------------- 第3页 -----------------------%
+\includepdf[pages=3,scale=0.95,pagecommand={}]{341.pdf}
+
+\section*{第3页中文译文}
+\textbf{引言部分：}  
+现代生活方式与生产方式的进步，使人类在享受便利的同时也面临能源短缺与生态失衡。
+能源与环境危机在全球范围普遍存在，各国政府逐步重视电动汽车的发展，
+以期缓解能源危机、推动社会经济可持续发展。
+随着电动汽车的不断进步，合理规划充电站的选址与建设成为亟需解决的关键问题。
+
+\vspace{1cm}
+
+%----------------------- 第4页 -----------------------%
+\includepdf[pages=4,scale=0.95,pagecommand={}]{341.pdf}
+
+\section*{第4页中文译文}
+\textbf{问题重述：}  
+本文需解决的主要问题包括：
+\begin{itemize}
+    \item 探讨美国特斯拉充电站的类型与布局，判断是否能够在2030年前实现全面电动化；
+    \item 建立韩国充电站布局模型，分析充电桩数量与分布的最优策略；
+    \item 对不同国家条件（如人口与财富分布差异）建立分类系统；
+    \item 探讨新交通方式（共享出行、无人驾驶、飞行汽车）及新技术对电动车产业的影响；
+    \item 为国际能源会议提供针对不同国家的政策建议。
+\end{itemize}
+
+\vspace{1cm}
+
+%----------------------- 第5页 -----------------------%
+\includepdf[pages=5,scale=0.95,pagecommand={}]{341.pdf}
+
+\section*{第5页中文译文}
+\textbf{假设条件：}
+\begin{enumerate}
+    \item 每个充电站含8个充电桩；
+    \item 当电动车普及至饱和状态时，与传统燃油车的使用量相等；
+    \item 不考虑政治、军事及不可抗力影响；
+    \item 模型基于现有数据与回归预测结果。
+\end{enumerate}
+
+\vspace{1cm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 提示：后续页可以用相同模板继续扩展至 page=22
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% 例如批量插入（仅嵌入原PDF，不附中文）：
+% \includepdf[pages=6-22,scale=0.95,pagecommand={}]{341.pdf}
+
+% 然后在需要的页后添加中文翻译段落：
+% \section*{第6页中文译文}
+% （在此填写对应翻译内容）
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
